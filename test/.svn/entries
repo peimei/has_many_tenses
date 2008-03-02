@@ -1,0 +1,67 @@
+8
+
+dir
+4
+svn+ssh://james@railsjitsu.com/var/svn/repos/acts_as_subscribeable/trunk/acts_as_subscribeable/test
+svn+ssh://james@railsjitsu.com/var/svn/repos/acts_as_subscribeable
+
+
+
+2007-12-04T12:34:53.220843Z
+4
+james
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+11a7a709-b8a4-4df7-8284-921e42f7db16
+
+test_helper.rb
+file
+
+
+
+
+2007-12-04T12:35:48.000000Z
+686ce88596e724cb098b34347a912707
+2007-12-04T12:34:53.220843Z
+4
+james
+
+schema.rb
+file
+
+
+
+
+2007-12-04T12:35:48.000000Z
+4a98db3879899fae3c2ce788ed8d8901
+2007-12-04T12:34:53.220843Z
+4
+james
+
+acts_as_subscribeable_test.rb
+file
+
+
+
+
+2007-12-04T12:35:48.000000Z
+4e48cf0ea362fa7e202a174949c6375d
+2007-12-02T09:45:03.938458Z
+1
+james
+
+fixtures
+dir
+

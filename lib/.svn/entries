@@ -1,0 +1,52 @@
+8
+
+dir
+4
+svn+ssh://james@railsjitsu.com/var/svn/repos/acts_as_subscribeable/trunk/acts_as_subscribeable/lib
+svn+ssh://james@railsjitsu.com/var/svn/repos/acts_as_subscribeable
+
+
+
+2007-12-02T09:45:03.938458Z
+1
+james
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+11a7a709-b8a4-4df7-8284-921e42f7db16
+
+acts_as_subscribeable.rb
+file
+
+
+
+
+2007-12-04T12:35:48.000000Z
+d3266a358567ff36d308740cf999edcc
+2007-12-02T09:45:03.938458Z
+1
+james
+
+subscription.rb
+file
+
+
+
+
+2007-12-04T12:35:48.000000Z
+9c2b4459411281f05302ed1defe2bd90
+2007-12-02T09:45:03.938458Z
+1
+james
+

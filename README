@@ -1,0 +1,25 @@
+HasManyTenses
+===================
+
+....
+
+Prerequisites
+=============
+Rails 1.2.6+
+Model must have created_at
+
+Installing the plugin
+=====================
+  -- Get the plugin:
+    ....
+  -- Run:
+    ...
+  -- Add a has_many_tenses to your User model
+  -- ...
+
+  NOTES:
+  ======
+  ...
+
+Copyright (c) 2007 E. James O'Kelly, released under the MIT license
+www.railsjitsu.com
