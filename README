@@ -13,6 +13,8 @@ Installing the plugin
     git clone git@github.com:peimei/has_many_tenses.git vendor/plugins/has_many_tenses
   
   -- To get access to the instance methods just add has_many_tenses to your model
+     You can also modify the recency comparer via has_many_tenses(:recency => 30.minutes.ago)
+      
   -- To use the association proxies do something like:
       has_many :comments, :order => 'created_at ASC', :dependent => :destroy, 
         :extend => RailsJitsu::HasManyTenses::SingletonMethods

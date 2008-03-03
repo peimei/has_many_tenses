@@ -3,11 +3,17 @@ module RailsJitsu
   module HasManyTenses #:nodoc:
 
     def self.included(base)
-      base.extend ClassMethods  
+      base.cattr_accessor :recency
+      base.extend ClassMethods
     end
 
     module ClassMethods
-      def has_many_tenses
+      
+      def has_many_tenses(options = {})
+        self.recency = 15.minutes.ago
+        if options.is_a?(Hash)
+          self.recency = options[:recency] if options[:recency].class == Time
+        end
         include RailsJitsu::HasManyTenses::InstanceMethods
       end
     end
@@ -19,7 +25,7 @@ module RailsJitsu
       end
 
       def recent
-        @recent ||= find(:all, :conditions => ['created_at BETWEEN ? and ?', 15.days.ago, Time.now])
+        @recent ||= find(:all, :conditions => ['created_at BETWEEN ? and ?', self.recency, Time.now])
       end
 
       def past
@@ -34,7 +40,7 @@ module RailsJitsu
       end
 
       def recent?
-        created_at.between?(15.days.ago, Time.now)
+        created_at.between?(self.recency, Time.now)
       end
 
       def past?
